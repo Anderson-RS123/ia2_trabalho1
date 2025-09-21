@@ -14,7 +14,8 @@ O trabalho utiliza algoritmos de classificação como **Random Forest, Bagging, 
 
 ## 📂 Estrutura do Projeto
 - `depressao2.py` → Script principal em Python para carregamento de dados, pré-processamento, treinamento e avaliação dos modelos.  
-- `requirements.txt` → Lista de bibliotecas necessárias para executar o projeto.  
+- `requirements.txt` → Lista de bibliotecas necessárias para executar o projeto.
+- `Student Depressio Dataset- atualizado.csv` → Contém os dados utilizados para o trabalho. Necessário atualizar no código, o caminho do arquivo baixado.
 - Relatório em PDF com a descrição detalhada do trabalho e resultados.
 - Slides de apresentação do trabalho.
 
