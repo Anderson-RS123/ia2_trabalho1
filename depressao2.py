@@ -13,7 +13,7 @@ from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
 
 # lendo o arquivo CSV do dataset de depressão
-df = pd.read_csv("C:/Users/Usuario/Downloads/Student Depression Dataset- atualizado.csv",
+df = pd.read_csv("",   # insira entre as aspas duplas, o caminho em que você baixou o arquivo CSV, que contem os dados
     sep=";",
     encoding="utf-8")
 
@@ -183,3 +183,4 @@ for nome, modelo in melhores_modelos.items():
         sns.barplot(x="Importância", y="Feature", data=df_imp, palette="magma")
         plt.title(f"Top 10 Features mais importantes - {nome}")
         plt.show()
+
