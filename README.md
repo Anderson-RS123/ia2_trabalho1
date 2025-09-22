@@ -26,6 +26,5 @@ O trabalho utiliza algoritmos de classificação como **Random Forest, Bagging, 
 ### 1️⃣ Clonar o repositório
 ```bash
 git clone https://github.com/Anderson-RS123/ia2_trabalho1.git
-cd ia2_trabalho1
 pip install -r requirements.txt
 python depressao2.py
